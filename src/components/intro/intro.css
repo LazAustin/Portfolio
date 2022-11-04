@@ -100,6 +100,15 @@
   margin-top: 25px;
 }
 
+.introLinkWrapper a:link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: none;
+  color: #001D3D;
+  align-items: center;
+}
+
 .introLinks {
   width: 25px;
   height: 25px;
@@ -132,8 +141,49 @@
 
 }
 
+
 @media screen and (max-width: 720px) {
+  .i-desc {
+    font-size: 80%;
+  }
+  
   .i-img {
     display: none;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #001D3D;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
   }
 }

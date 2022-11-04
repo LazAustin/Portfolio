@@ -37,15 +37,30 @@ const Intro = () => {
           <p className="i-desc">
           By day, I am a full stack developer who can help you build apps and websites.
           <br/>
-          At night, I don my mask and cape to become a a pianist, sci-fi nerd, amateur linguist, blogger, political commentator, chef, and husband (had to throw that one in there for the wife). 
+          At night, I don my mask and cape to become a a pianist, sci-fi nerd, amateur linguist, blogger, political commentator, chef, and husband (had to throw that one in there for the wife). Check out my Github, Stack Overflow, or LinkedIn accounts below. 
           </p>
-          <div className="introLinkWrapper">
-              <FaGithub className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
-              <FaStackOverflow className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
-              <FaLinkedin className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
+          <div className="introLinkWrapper" style={{color: darkMode && "#FFD60A"}}>
+            <div className="tooltip">
+            <a href="https://github.com/LazAustin">
+                <FaGithub className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
+                <span className="tooltiptext" style={{backgroundColor: darkMode && "#FFD60A"}}>Github</span>
+              </a>
+            </div>
+            <div className="tooltip" style={{color: darkMode && "#FFD60A"}}>  
+              <a href="https://stackoverflow.com/users/12333367/laz-austin" >
+                <FaStackOverflow className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
+                <span className="tooltiptext" style={{backgroundColor: darkMode && "#FFD60A"}}>Stack Overflow</span>
+              </a>  
+            </div>  
+            <div className="tooltip" style={{color: darkMode && "#FFD60A"}}>
+              <a href="www.linkedin.com/in/lazaustin" >
+                <FaLinkedin className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
+                <span className="tooltiptext" style={{backgroundColor: darkMode && "#FFD60A"}}>LinkedIn</span>
+              </a>
+            </div>  
           </div>
         </div>
-        <svg
+        {/* <svg
           width="75"
           height="75"
           viewBox="0 0 75 75"
@@ -100,7 +115,7 @@ const Intro = () => {
               />
             </g>
           </g>
-        </svg>
+        </svg> */}
       </div>
       <div className="i-right">
         <div className="i-bg" style={{backgroundColor: darkMode && "#FFC300"}}></div>

@@ -1,11 +1,14 @@
 import "./intro.css";
+import { ThemeContext } from "../../context";
+import { useContext } from "react";
 import Me from "../../img/me.JPG";
-import logo from "../../img/lazSvg1.svg";
-import logo2 from "../../img/lazSvg2.svg";
-import logo3 from "../../img/lazPng1.jpg";
-import logo4 from "../../img/lazPng2.png";
+import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 
 const Intro = () => {
+
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className="i">
       <div className="i-left">
@@ -14,18 +17,33 @@ const Intro = () => {
           <h1 className="i-name">Laz Austin</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Web Developer</div>
-              <div className="i-title-item">App Developer</div>
-              <div className="i-title-item">Android</div>
-              <div className="i-title-item">MERN Stack</div>
-              <div className="i-title-item">Java/Javascript </div>
+              <div className="i-title-item" style={{
+                    color: darkMode && "#FFC300",
+                  }}>Web Developer</div>
+              <div className="i-title-item" style={{
+                    color: darkMode && "#FFC300",
+                  }}>App Developer</div>
+              <div className="i-title-item" style={{
+                    color: darkMode && "#FFC300",
+                  }}>Android</div>
+              <div className="i-title-item" style={{
+                    color: darkMode && "#FFC300",
+                  }}>MERN Stack</div>
+              <div className="i-title-item" style={{
+                    color: darkMode && "#FFC300",
+                  }}>Java/Javascript </div>
             </div>
           </div>
           <p className="i-desc">
           By day, I am a full stack developer who can help you build apps and websites.
           <br/>
-          At night, I don my mask and cape to become a a pianist, sci-fi nerd, amateur linguist, blogger, political activist, chef, and husband (had to throw that one in there for the wife). 
+          At night, I don my mask and cape to become a a pianist, sci-fi nerd, amateur linguist, blogger, political commentator, chef, and husband (had to throw that one in there for the wife). 
           </p>
+          <div className="introLinkWrapper">
+              <FaGithub className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
+              <FaStackOverflow className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
+              <FaLinkedin className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
+          </div>
         </div>
         <svg
           width="75"
@@ -85,7 +103,7 @@ const Intro = () => {
         </svg>
       </div>
       <div className="i-right">
-        <div className="i-bg"></div>
+        <div className="i-bg" style={{backgroundColor: darkMode && "#FFC300"}}></div>
         <img src={Me} alt="" className="i-img" />
       </div>
     </div>

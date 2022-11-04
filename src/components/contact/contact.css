@@ -6,7 +6,7 @@
 .c-bg {
   width: 20px;
   height: 100%;
-  background-color: #FED000;
+  background-color: #000814;
   position: absolute;
 }
 
@@ -36,8 +36,14 @@
   display: flex;
   align-items: center;
   margin: 50px 0px;
-  font-weight: 300;
+  font-weight: 500;
   width: 70%;
+  text-decoration: none;
+  color: #000814;
+}
+
+.c-info-item:hover {
+  text-decoration: underline;
 }
 
 .c-icon {
@@ -46,8 +52,16 @@
   margin-right: 20px;
 }
 
+.c-icon svg {
+  color: white;
+}
+
 .c-desc {
   font-weight: 200;
+}
+
+.c-desc p {
+  color: #001D3D
 }
 
 form {
@@ -74,7 +88,7 @@ textarea {
 button {
   border: none;
   padding: 15px;
-  background-color: #FED000;
+  background-color: #000814;
   color: white;
   font-weight: 500;
   cursor: pointer;

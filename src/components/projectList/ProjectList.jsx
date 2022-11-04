@@ -1,8 +1,8 @@
-import "./productList.css";
-import Product from "../product/Product";
-import { products } from "../../data";
+import "./projectList.css";
+import Project from "../project/Project";
+import { projects } from "../../data";
 
-const ProductList = () => {
+const ProjectList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
@@ -12,12 +12,12 @@ const ProductList = () => {
         </p>
       </div>
       <div className="pl-list">
-        {products.map((item) => (
-          <Product key={item.id} img={item.img} link={item.link} />
+        {projects.map((item) => (
+          <Project key={item.id} img={item.img} link={item.link} title={item.title}/>
         ))}
       </div>
     </div>
   );
 };
 
-export default ProductList;
+export default ProjectList;

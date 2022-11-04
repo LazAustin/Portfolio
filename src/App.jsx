@@ -2,7 +2,7 @@ import { useContext } from "react";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
-import ProductList from "./components/productList/ProductList";
+import ProjectList from "./components/projectList/ProjectList";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 
@@ -12,14 +12,14 @@ const App = () => {
   return (
     <div
       style={{
-        backgroundColor: darkMode ? "#222" : "white",
+        backgroundColor: darkMode ? "#000814" : "white",
         color: darkMode && "white",
       }}
     >
       <Toggle />
       <Intro />
       <About />
-      <ProductList />
+      <ProjectList />
       <Contact />
     </div>
   );

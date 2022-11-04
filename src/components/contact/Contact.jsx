@@ -1,10 +1,8 @@
 import "./contact.css";
-import Phone from "../../img/phone.png";
-import Email from "../../img/email.png";
-import Address from "../../img/address.png";
 import { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
+import { FaGithub, FaStackOverflow, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   const formRef = useRef();
@@ -16,8 +14,8 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_0obqdf8",
-        "template_w2oyyyo",
+        "contact_service",
+        "portfolio_template",
         formRef.current,
         "BHdTw7doJu0GGI8qd"
       )
@@ -34,36 +32,35 @@ const Contact = () => {
 
   return (
     <div className="c">
-      <div className="c-bg"></div>
+      <div className="c-bg" style={{backgroundColor: darkMode && "#FFD60A"}}></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your project</h1>
+          <h1 className="c-title">Need a developer?</h1>
           <div className="c-info">
-            <div className="c-info-item">
-              <img src={Phone} alt="" className="c-icon" />
-              (601) 813-4876
-            </div>
-            <div className="c-info-item">
-              <img className="c-icon" src={Email} alt="" />
-              lazaustin94@gmail.com
-            </div>
-            <div className="c-info-item">
-              <img className="c-icon" src={Address} alt="" />
-              West Point, MS.
-            </div>
+            <a href="https://github.com/LazAustin" className="c-info-item" style={{color: darkMode && "#FFD60A"}}>
+                <FaGithub className="c-icon"/>
+                GitHub
+            </a>
+            <a href="https://stackoverflow.com/users/12333367/laz-austin" className="c-info-item" style={{color: darkMode && "#FFD60A"}}>
+                <FaStackOverflow className="c-icon" />
+                Stack Overflow
+            </a>
+            <a href="www.linkedin.com/in/lazaustin" className="c-info-item" style={{color: darkMode && "#FFD60A"}}>
+                <FaLinkedin className="c-icon" />
+                LinkedIn
+            </a>
           </div>
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>What’s your story?</b> Get in touch. I am always available for
-            freelancing if the right project comes along. <cite> &mdash; Laz </cite>
+            <b style={{color: darkMode && "#FFC300"}}>How can I help?</b> Hit me up. I'm always looking for opportunities.<cite> &mdash; Laz </cite>
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
-            <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
-            <button>Submit</button>
+            <input style={{backgroundColor: darkMode && "#333", color: darkMode && "white"}} type="text" placeholder="Name" name="user_name" />
+            <input style={{backgroundColor: darkMode && "#333", color: darkMode && "white"}} type="text" placeholder="Subject" name="user_subject" />
+            <input style={{backgroundColor: darkMode && "#333", color: darkMode && "white"}} type="text" placeholder="Email" name="user_email" />
+            <textarea style={{backgroundColor: darkMode && "#333", color: "white", color: darkMode && "white"}} rows="5" placeholder="Message" name="message" />
+            <button style={{backgroundColor: darkMode && "#FFD60A"}}>Submit</button>
             {done && "   Thank you..."}
           </form>
         </div>

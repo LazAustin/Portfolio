@@ -97,7 +97,6 @@
   display: flex;
   max-width: 300px;
   justify-content: space-between;
-  margin-top: 25px;
 }
 
 .introLinkWrapper a:link {
@@ -112,7 +111,7 @@
 .introLinks {
   width: 25px;
   height: 25px;
-  margin: 25px;
+  margin: 10px 25px;
   color: #000814;
 }
 

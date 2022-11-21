@@ -1,5 +1,4 @@
 import "./about.css";
-import secondMe from './secondMe.JPG'
 import { ThemeContext } from "../../context";
 import { useContext } from "react";
 
@@ -13,11 +12,7 @@ const About = () => {
       <div className="a-left">
         <div className="a-card bg" style={{backgroundColor: darkMode && "#FFC300"}} ></div>
         <div className="a-card">
-          <img
-            src={secondMe}
-            alt=""
-            className="a-img"
-          />
+          
         </div>
       </div>
       <div className="a-right">

@@ -32,10 +32,17 @@
   overflow: hidden;
 }
 
+.a-card:last-child {
+  background-image: url("LazAndCathyBeach.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 .a-img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  border-radius: 30px;
 }
 
 .a-award-img {
@@ -96,6 +103,11 @@
 
     .a-card {
       height: 30vh;
+    }
+    .a-card:last-child {
+      background-image: url("secondMe.jpg");
+      background-position: top;
+      background-size: cover;
     }
 
     .a-card.bg, .a-award {

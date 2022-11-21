@@ -25,10 +25,10 @@ const Intro = () => {
                   }}>App Developer</div>
               <div className="i-title-item" style={{
                     color: darkMode && "#FFC300",
-                  }}>Android</div>
+                  }}>MERN Stack</div>
               <div className="i-title-item" style={{
                     color: darkMode && "#FFC300",
-                  }}>MERN Stack</div>
+                  }}>Android</div>
               <div className="i-title-item" style={{
                     color: darkMode && "#FFC300",
                   }}>Java/Javascript </div>
@@ -43,19 +43,19 @@ const Intro = () => {
             <div className="tooltip">
             <a href="https://github.com/LazAustin">
                 <FaGithub className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
-                <span className="tooltiptext" style={{backgroundColor: darkMode && "#FFD60A"}}>Github</span>
+                <span className="tooltiptext" style={{color: darkMode && "#FFD60A"}}>Github</span>
               </a>
             </div>
             <div className="tooltip" style={{color: darkMode && "#FFD60A"}}>  
               <a href="https://stackoverflow.com/users/12333367/laz-austin" >
                 <FaStackOverflow className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
-                <span className="tooltiptext" style={{backgroundColor: darkMode && "#FFD60A"}}>Stack Overflow</span>
+                <span className="tooltiptext" style={{color: darkMode && "#FFD60A"}}>Stack Overflow</span>
               </a>  
             </div>  
             <div className="tooltip" style={{color: darkMode && "#FFD60A"}}>
               <a href="www.linkedin.com/in/lazaustin" >
                 <FaLinkedin className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
-                <span className="tooltiptext" style={{backgroundColor: darkMode && "#FFD60A"}}>LinkedIn</span>
+                <span className="tooltiptext" style={{color: darkMode && "#FFD60A"}}>LinkedIn</span>
               </a>
             </div>  
           </div>

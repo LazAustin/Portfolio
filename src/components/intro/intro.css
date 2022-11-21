@@ -33,7 +33,7 @@
 }
 
 .i-title {
-  height: 50px;
+  height: 50px !important;
   overflow: hidden;
 }
 
@@ -129,8 +129,12 @@
     height: 100%;
   }
 
-  .i-desc{
+  .i-desc {
     display: none;
+  }
+
+  .i-title-item {
+    justify-content: center;
   }
 
   .introLogo {
@@ -153,7 +157,6 @@
   .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
   }
 
   .tooltip .tooltiptext {
@@ -165,7 +168,6 @@
     border-radius: 6px;
     padding: 5px 0;
     position: absolute;
-    z-index: 1;
     bottom: 100%;
     left: 50%;
     margin-left: -60px;
@@ -184,5 +186,6 @@
   
   .tooltip:hover .tooltiptext {
     visibility: visible;
+    padding: 10px;
   }
 }

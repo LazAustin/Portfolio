@@ -1,9 +1,28 @@
+.p-wrapper {
+  object-fit: cover;
+  padding: 5px;
+}
+
+.img-wrapper {
+  height: 30vh;
+  overflow: hidden;
+  border-bottom: 2px solid rgb(243, 242, 242);
+}
+
+.title {
+}
+
+.ul {
+  text-align: left;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
 .p {
   width: 30%;
-  height: 40vh;
   margin: 20px 10px;
   border: 2px solid rgb(243, 242, 242);
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 10px 10px;
   overflow: hidden;
 }
 
@@ -35,7 +54,47 @@
 
 @media screen and (max-width: 480px) {
   .p {
-    width: 40%;
-    height: 20vh;
+    width: 70%;
+    justify-content: center;
   }
+
+  .title {
+    font-size: 5vw;
+  }
+
+  .ul {
+    font-size: 4vw;
+  }
+
+  .img-wrapper {
+    max-height: 200px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 720px) {
+  .p {
+    width: 70%;
+  }
+  .ul {
+    font-size: 1vw;
+  }
+  
+  .title {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1080px) {
+
+.p {
+  width: 40%;
+}
+
+.ul {
+  font-size: 1vw;
+}
+
+.title {
+  font-size: 1.5vw;
+}
 }

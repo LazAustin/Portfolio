@@ -35,27 +35,31 @@ const Intro = () => {
             </div>
           </div>
           <p className="i-desc">
-          By day, I am a full stack developer who can help you build apps and websites.
-          <br/>
-          At night, I don my mask and cape to become a a pianist, sci-fi nerd, amateur linguist, blogger, political commentator, chef, and husband (had to throw that one in there for the wife). Check out my Github, Stack Overflow, or LinkedIn accounts below. 
+          By day, I am a full stack software developer.
+          </p>
+          <p className="i-desc">
+          At night, I don my mask and cape to become a sci-fi and comic nerd, amateur linguist, bartender, blogger and commentator, chef, pianist, reader, and husband. 
+          </p>
+          <p className="i-desc">
+          Check out my Github, Stack Overflow, or LinkedIn links or feel free to contact me at the bottom of the page. 
           </p>
           <div className="introLinkWrapper" style={{color: darkMode && "#FFD60A"}}>
             <div className="tooltip">
             <a href="https://github.com/LazAustin">
                 <FaGithub className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
-                <span className="tooltiptext" style={{color: darkMode && "#FFD60A"}}>Github</span>
+                <span className="tooltiptext" style={{color: darkMode ? "#FFD60A"  : "#001D3D"}}><b>Github</b></span>
               </a>
             </div>
             <div className="tooltip" style={{color: darkMode && "#FFD60A"}}>  
               <a href="https://stackoverflow.com/users/12333367/laz-austin" >
                 <FaStackOverflow className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
-                <span className="tooltiptext" style={{color: darkMode && "#FFD60A"}}>Stack Overflow</span>
+                <span className="tooltiptext" style={{color: darkMode ? "#FFD60A": "#001D3D"}}><b>Stack Overflow</b></span>
               </a>  
             </div>  
             <div className="tooltip" style={{color: darkMode && "#FFD60A"}}>
-              <a href="www.linkedin.com/in/lazaustin" >
+              <a href="https://linkedin.com/in/lazaustin" >
                 <FaLinkedin className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
-                <span className="tooltiptext" style={{color: darkMode && "#FFD60A"}}>LinkedIn</span>
+                <span className="tooltiptext" style={{color: darkMode ? "#FFD60A" : "#001D3D"}}><b>LinkedIn</b></span>
               </a>
             </div>  
           </div>

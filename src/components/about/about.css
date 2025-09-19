@@ -59,6 +59,8 @@
 }
 
 .a-desc{
+    padding-right: 10px;
+    font-size: 150%;
     font-weight: 300;
     text-indent: 5%;
 }
@@ -91,7 +93,7 @@
 }
 
 @media screen and (max-width:480px) {
-    .a{
+    .a {
       flex-direction: column;
       text-align: center;
       margin-top: 50px;

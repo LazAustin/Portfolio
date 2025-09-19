@@ -6,7 +6,7 @@ export const projects = [
   {
     id: 1,
     img: screencapafc,
-    link: "https://aldenforcongress.com",
+    link: "https://aldenforcongress.lazaustin.com",
     title: "Alden For Congress / Campaign Website",
     desc: "Campaigin Website for a colleague running for Congress. Written in basic HTML, CSS, Javascript, JQuery, Bootstrap, PHP, and SQL.",
     desc1: "HTML, CSS, JS",
@@ -16,7 +16,7 @@ export const projects = [
   {
     id: 2,
     img: screencaplm,
-    link: "http://filmifyms.com",
+    link: "http://filmifyms.lazaustin.com",
     title: "Filmify / Management System",
     desc: "CRUD app built to manage streaming video licenses for libraries and film distributors. Written on the MERN stack with MUI, JWT, and Redux Toolkit.",
     desc1: "React, MaterialUI, JS",
@@ -26,7 +26,7 @@ export const projects = [
   {
     id: 3,
     img: screencapblog,
-    link: "http://commenhater.com",
+    link: "http://commenhater.lazaustin.com",
     title: "Commenhater / Blog",
     desc: "Full-stack blog written for myself and my hobbies. Another MERN stack app, but with Context for state management, Tailwind CSS, and several node packages including emailjs, TipTap, and more.",
     desc1: "React, TailwindCSS, JS",

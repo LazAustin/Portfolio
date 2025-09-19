@@ -68,7 +68,6 @@
 
 .i-desc {
   margin: 3px 0;
-  font-size: 25px;
 }
 
 .i-scroll {
@@ -153,7 +152,7 @@
 
 @media screen and (max-width: 720px) {
   .i-desc {
-    font-size: 70%;
+    font-size: 125%;
   }
   
   .i-img {

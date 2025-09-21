@@ -21,6 +21,7 @@ const App = () => {
       <About />
       <ProjectList />
       <Contact />
+      
     </div>
   );
 };

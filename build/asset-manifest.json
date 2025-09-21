@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0bf6f735.css",
+    "main.js": "/static/js/main.4dc46da2.js",
+    "static/media/screencapafc.png": "/static/media/screencapafc.d0ae8fd5fd6b0c234536.png",
+    "static/media/me.JPG": "/static/media/me.2ef9db586815f0d269cf.JPG",
+    "static/media/secondMe.jpg": "/static/media/secondMe.9f42f0947d134159e895.jpg",
+    "static/media/screencapblog.png": "/static/media/screencapblog.2037a8b812c5d6d88d85.png",
+    "static/media/LazAndCathyBeach.jpg": "/static/media/LazAndCathyBeach.31e76180e8bec5f8c797.jpg",
+    "static/media/screencaplm.png": "/static/media/screencaplm.fe9859c26b07b3e2fb1d.png",
+    "static/media/sun.png": "/static/media/sun.f794832ad72b90c61eb7.png",
+    "static/media/moon.png": "/static/media/moon.3bea3d398a25611d421b.png",
+    "index.html": "/index.html",
+    "main.0bf6f735.css.map": "/static/css/main.0bf6f735.css.map",
+    "main.4dc46da2.js.map": "/static/js/main.4dc46da2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bf6f735.css",
+    "static/js/main.4dc46da2.js"
+  ]
+}

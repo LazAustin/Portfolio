@@ -4,6 +4,10 @@
     font-size: 20px;
 }
 
+html {
+  margin: 0;
+}
+
 @media screen and (max-width: 1920px) {
   //just set up for future edits if needed
 }
@@ -19,9 +23,7 @@
 }
 
 @media screen and (max-width: 960px) {
-  * {
-    font-size: 18px;
-  }
+  
 }
 
 @media screen and (max-width: 720px) {

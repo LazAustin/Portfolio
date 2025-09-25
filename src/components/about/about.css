@@ -2,6 +2,7 @@
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .a-left {
@@ -11,10 +12,12 @@
   justify-content: center;
   position: relative;
   height: 100%;
+  max-width: 800px;
 }
 
 .a-right {
   flex: 1;
+  max-width: 800px;
 }
 
 .a-card.bg {
@@ -60,7 +63,6 @@
 
 .a-desc{
     padding-right: 10px;
-    font-size: 150%;
     font-weight: 300;
     text-indent: 5%;
 }
@@ -92,11 +94,22 @@
   font-weight: 600;
 }
 
+@media screen and ( max-width: 1280px ) {
+  .a {
+    margin-top: 50px;
+  }
+}
+
+@media screen and ( max-width: 720px ) {
+  .a {
+    margin-top: 100px;
+  }
+}
+
 @media screen and (max-width:480px) {
     .a {
       flex-direction: column;
       text-align: center;
-      margin-top: 50px;
     }
 
     .a-left {

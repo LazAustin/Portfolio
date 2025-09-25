@@ -2,6 +2,8 @@ import "./intro.css";
 import { ThemeContext } from "../../context";
 import { useContext } from "react";
 import Me from "../../img/me.JPG";
+import MeNoBG from "../../img/lazProfNoBGPNGCompressed.png"
+import MeNoBG2 from "../../img/lazProf2NoBGPNGCompressed.png"
 import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 
 const Intro = () => {
@@ -13,13 +15,19 @@ const Intro = () => {
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">My name is</h2>
+          <div className="i-maint-wrapper">
+            <span className="i-maint-content">Please pardon the mess while I conduct some maintenance.</span>
+          </div>
+          <div className="i-intro">My name is</div>
           <h1 className="i-name">Laz Austin</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item" style={{
                     color: darkMode && "#FFC300",
                   }}>Web Developer</div>
+              <div className="i-title-item" style={{
+                    color: darkMode && "#FFC300",
+                  }}>Wordpress</div>
               <div className="i-title-item" style={{
                     color: darkMode && "#FFC300",
                   }}>App Developer</div>
@@ -29,9 +37,6 @@ const Intro = () => {
               <div className="i-title-item" style={{
                     color: darkMode && "#FFC300",
                   }}>Android</div>
-              <div className="i-title-item" style={{
-                    color: darkMode && "#FFC300",
-                  }}>Java/Javascript </div>
             </div>
           </div>
           <p className="i-desc">
@@ -53,7 +58,7 @@ const Intro = () => {
             <div className="tooltip" style={{color: darkMode && "#FFD60A"}}>  
               <a href="https://stackoverflow.com/users/12333367/laz-austin" >
                 <FaStackOverflow className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
-                <span className="tooltiptext" style={{color: darkMode ? "#FFD60A": "#001D3D"}}><b>Stack Overflow</b></span>
+                <span className="tooltiptext" style={{color: darkMode ? "#FFD60A": "#001D3D"}}><b>Stack<br/>Overflow</b></span>
               </a>  
             </div>  
             <div className="tooltip" style={{color: darkMode && "#FFD60A"}}>
@@ -123,7 +128,7 @@ const Intro = () => {
       </div>
       <div className="i-right">
         <div className="i-bg" style={{backgroundColor: darkMode && "#FFC300"}}></div>
-        <img src={Me} alt="" className="i-img" />
+        <img src={MeNoBG2} alt="" className="i-img" />
       </div>
     </div>
   );

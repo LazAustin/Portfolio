@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1920px) {
+  //just set up for future edits if needed
+}
+
+@media screen and (max-width: 1440px) {
+  //just set up for future edits if needed
+}
+
+@media screen and (max-width: 1280px) {
+  * {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  * {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  * {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  * {
+  }
+}
+

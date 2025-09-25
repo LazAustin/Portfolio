@@ -1,6 +1,11 @@
 .i {
   display: flex;
   max-height: 800px;
+  position: relative;
+}
+
+.i-img-Mobile {
+  display: none;
 }
 
 .i-left {
@@ -136,6 +141,10 @@
   color: #000814;
 }
 
+.introLinkWrapper-Mobile {
+  display: none;
+}
+
 @media screen and (max-width: 1920px) {
   .i-left-wrapper {
     max-width: 700px;
@@ -155,14 +164,12 @@
 @media screen and (max-width: 960px) {
   .i {
     flex-direction: column;
+    max-height: none;
   }
 
   .i-left-wrapper {
-  
+    width: 80%;
     padding: 10px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     height: 100%;
   }
 
@@ -170,40 +177,137 @@
   }
 
   .i-title-item {
-    justify-content: center;
   }
 
   .introLogo {
     max-width: 10%;
   }
 
+  .introLinkWrapper {
+    display: none;
+  }
+
+  .i-right {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 200px;
+    position: relative;
+  }
+
+  /* .i-img-Mobile {
+    display: block;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    transform: translateY(-100%);
+  } */
+
   .i-bg {
-  clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-  background-color: #001D3D;
-  width: 100%;
-  height: 200px;
-  position: relative;
-  margin: 50px 0 ;
-}
+    clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-color: #001D3D;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+
+  .i-img {
+    /* display: none; */
+    z-index: 3;
+  }
 
   .introLinkWrapper {
     width: 60%;
   }
 
-}
+  .introLinkWrapper-Mobile {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    z-index: 2;
+    width: 200px;
+    gap: 10px;
+  }
 
+  .introLinks-Mobile {
+    font-size: 28px;
+    width: 35px;
+    height: 35px;
+    color: white;
+  }
+
+  .introLinkWrapper-Mobile .tooltip {
+    flex: 1;
+  }
+
+  .introLinkWrapper-Mobile .tooltip a {
+    height: 100%;
+    width: 100%;
+  }
+
+  .introLinkWrapper-Mobile a:link {
+    display: inline-flex;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: none;
+    color: white;
+    align-items: center;
+    text-align: center;
+    line-height: 1.25rem;
+    font-size: 16px;
+    gap: 10px;
+  }
+
+  .tooltiptext-Mobile {
+    display: block;
+    visibility: visible;
+    color: white !important;
+    font-size: 15px;
+    line-height: 1rem;
+  }
+
+  .tooltip-filler {
+    visibility: hidden;
+  }
+
+  .tooltip-filler .tooltiptext-Mobile {
+    visibility: hidden;
+  }
+
+}
 
 @media screen and (max-width: 720px) {
   .i-desc {
     font-size: 125%;
   }
-  
-  .i-img {
-    display: none;
-  }
 
   .introLinkWrapper {
     width: 80%;
+  }
+
+  .introLinkWrapper-Mobile {
+    width: 60%;
+    gap: 25px;
+  }
+
+  .introLinks-Mobile {
+    width: 30px;
+    height: 30px;
+  }
+
+  .tooltiptext-Mobile {
+    display: block;
+    visibility: visible;
+    color: white !important;
+    font-size: 12px;
   }
 
   .tooltip {
@@ -244,6 +348,21 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .i-intro {
+    font-size: 25px;
+    line-height: 1.35rem;
+  }
+
+  .i-name {
+    font-size: 50px;
+    line-height: 2rem;
+  }
+
+  .i-title {
+    margin-bottom: 25px;
+  }
+
   .introLinkWrapper {
     width: 100%;
   }

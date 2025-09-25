@@ -129,6 +129,33 @@ const Intro = () => {
       <div className="i-right">
         <div className="i-bg" style={{backgroundColor: darkMode && "#FFC300"}}></div>
         <img src={MeNoBG2} alt="" className="i-img" />
+        <img src={MeNoBG2} alt="" className="i-img-Mobile" />
+        <div className="introLinkWrapper-Mobile" style={{color: darkMode && "#FFD60A"}}>
+            <div className="tooltip" style={{color: darkMode && "#FFD60A"}}>
+              <a href="https://github.com/LazAustin">
+                <FaGithub className="introLinks-Mobile" style={{color: darkMode && "#FFD60A"}}/>
+                <span className="tooltiptext-Mobile" style={{color: darkMode ? "#FFD60A"  : "#001D3D"}}><b>Github</b></span>
+              </a>
+            </div>
+            <div className="tooltip" style={{color: darkMode && "#FFD60A"}}>  
+              <a href="https://stackoverflow.com/users/12333367/laz-austin" >
+                <FaStackOverflow className="introLinks-Mobile" style={{color: darkMode && "#FFD60A"}}/>
+                <span className="tooltiptext-Mobile" style={{color: darkMode ? "#FFD60A": "#001D3D"}}><b>Stack<br/>Overflow</b></span>
+              </a>  
+            </div>  
+            <div className="tooltip" style={{color: darkMode && "#FFD60A"}}>
+              <a href="https://linkedin.com/in/lazaustin" >
+                <FaLinkedin className="introLinks-Mobile" style={{color: darkMode && "#FFD60A"}}/>
+                <span className="tooltiptext-Mobile" style={{color: darkMode ? "#FFD60A" : "#001D3D"}}><b>LinkedIn</b></span>
+              </a>
+            </div>  
+            <div className="tooltip tooltip-filler" style={{color: darkMode && "#FFD60A"}} id="tooltip-filler">
+              <a href="https://linkedin.com/in/lazaustin" >
+                <FaLinkedin className="introLinks-Mobile" style={{color: darkMode && "#FFD60A"}}/>
+                <span className="tooltiptext-Mobile" style={{color: darkMode ? "#FFD60A" : "#001D3D"}}><b>LinkedIn</b></span>
+              </a>
+            </div>  
+          </div>
       </div>
     </div>
   );

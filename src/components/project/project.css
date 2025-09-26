@@ -26,6 +26,10 @@
   overflow: hidden;
 }
 
+.p:last-child {
+  display: none;
+}
+
 .p-browser {
   height: 20px;
   background-color: rgb(243, 242, 242);
@@ -50,6 +54,23 @@
 
 .p:hover .p-img {
   transform: translateY(-100%);
+}
+
+@media screen and (max-width: 1080px) {
+  .p:last-child {
+    display: block;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .p:last-child {
+    display: none;
+  }
+
+  .p {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 480px) {

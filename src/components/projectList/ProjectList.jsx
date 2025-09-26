@@ -13,7 +13,14 @@ const ProjectList = () => {
       </div>
       <div className="pl-list">
         {projects.map((item) => (
-          <Project key={item.id} img={item.img} link={item.link} title={item.title} desc1={item.desc1} desc2={item.desc2} desc3={item.desc3}/>
+          <Project 
+            key={item.id} 
+            img={item.img} 
+            link={item.link} 
+            title={item.title} 
+            desc1={item.desc1} 
+            desc2={item.desc2} 
+            desc3={item.desc3}/>
         ))}
       </div>
     </div>

@@ -26,6 +26,12 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1080px) {
+  .pl-list {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .pl {
     padding: 10px;
@@ -38,11 +44,6 @@
   .pl-desc {
     display: none;
   }
-
 }
 
-@media screen and (max-width: 1080px) {
-  .pl-list {
-    justify-content: center;
-  }
-}
+

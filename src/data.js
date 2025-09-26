@@ -33,5 +33,15 @@ export const projects = [
     desc2: "Node.js, Express, MongoDB",
     desc3: "Context, Axios"
   },
+  {
+    id: 0,
+    img: screencapblog,
+    link: "http://commenhater.lazaustin.com",
+    title: "Commenhater / Blog",
+    desc: "Full-stack blog written for myself and my hobbies. Another MERN stack app, but with Context for state management, Tailwind CSS, and several node packages including emailjs, TipTap, and more.",
+    desc1: "React, TailwindCSS, JS",
+    desc2: "Node.js, Express, MongoDB",
+    desc3: "Context, Axios"
+  },
 
 ];

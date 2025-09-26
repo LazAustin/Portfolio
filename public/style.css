@@ -1,7 +1,22 @@
 html {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+h1 {
+
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 1920px) {
@@ -14,12 +29,14 @@ html {
 
 @media screen and (max-width: 1280px) {
   html {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 960px) {
-
+  html {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 720px) {

@@ -132,7 +132,8 @@
   color: #001D3D;
   align-items: center;
   text-align: center;
-  line-height: 1.35rem;
+  line-height: 1.25rem;
+  gap: 15px;
 }
 
 .introLinks {
@@ -230,17 +231,19 @@
   .introLinkWrapper-Mobile {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
+    /* flex-direction: row;
+    flex-wrap: wrap; */
     z-index: 2;
     width: 200px;
-    gap: 10px;
+    gap: 50px;
   }
 
   .introLinks-Mobile {
     font-size: 28px;
     width: 35px;
     height: 35px;
+    margin-right: 25px;
+    margin: 0 auto;
     color: white;
   }
 
@@ -258,7 +261,6 @@
     flex-direction: column;
     text-decoration: none;
     background-color: none;
-    color: white;
     align-items: center;
     text-align: center;
     line-height: 1.25rem;
@@ -269,9 +271,9 @@
   .tooltiptext-Mobile {
     display: block;
     visibility: visible;
-    color: white !important;
     font-size: 15px;
     line-height: 1rem;
+    color: white;
   }
 
   .tooltip-filler {
@@ -294,8 +296,10 @@
   }
 
   .introLinkWrapper-Mobile {
-    width: 60%;
+    width: 150px;
     gap: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .introLinks-Mobile {

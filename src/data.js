@@ -1,6 +1,6 @@
-import screencapafc from './img/screencapafc.png';
-import screencapblog from './img/screencapblog.png';
-import screencaplm from './img/screencaplm.png';
+import screencapafc from './img/screencapafc.jpg';
+import screencapblog from './img/screencapblog.jpg';
+import screencaplm from './img/screencaplm.jpg';
 
 export const projects = [
   {

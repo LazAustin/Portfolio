@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.a9ad17ad.css",
-    "main.js": "/static/js/main.7bc5f10a.js",
+    "main.js": "/static/js/main.b9dca3ac.js",
     "static/media/lazProf2NoBGPNGCompressed.png": "/static/media/lazProf2NoBGPNGCompressed.8a6e1295a5858bfb5131.png",
-    "static/media/screencapafc.png": "/static/media/screencapafc.d0ae8fd5fd6b0c234536.png",
     "static/media/lazProfNoBGPNGCompressed.png": "/static/media/lazProfNoBGPNGCompressed.4646be95caac82f51dac.png",
     "static/media/me.JPG": "/static/media/me.2ef9db586815f0d269cf.JPG",
-    "static/media/screencapblog.png": "/static/media/screencapblog.2037a8b812c5d6d88d85.png",
+    "static/media/screencapafc.jpg": "/static/media/screencapafc.97994947c1930d8f59c7.jpg",
     "static/media/LazAndCathyBeach.jpg": "/static/media/LazAndCathyBeach.31e76180e8bec5f8c797.jpg",
-    "static/media/screencaplm.png": "/static/media/screencaplm.fe9859c26b07b3e2fb1d.png",
+    "static/media/screencapblog.jpg": "/static/media/screencapblog.1e160199eb9246c70cff.jpg",
     "static/media/LazAndCathyRoseGardenOriginalCompressed.jpg": "/static/media/LazAndCathyRoseGardenOriginalCompressed.61c2348eaf97cb4e4aa9.jpg",
+    "static/media/screencaplm.jpg": "/static/media/screencaplm.7924561c18b49e509a03.jpg",
     "static/media/sun.png": "/static/media/sun.f794832ad72b90c61eb7.png",
     "static/media/moon.png": "/static/media/moon.3bea3d398a25611d421b.png",
     "index.html": "/index.html",
     "main.a9ad17ad.css.map": "/static/css/main.a9ad17ad.css.map",
-    "main.7bc5f10a.js.map": "/static/js/main.7bc5f10a.js.map"
+    "main.b9dca3ac.js.map": "/static/js/main.b9dca3ac.js.map"
   },
   "entrypoints": [
     "static/css/main.a9ad17ad.css",
-    "static/js/main.7bc5f10a.js"
+    "static/js/main.b9dca3ac.js"
   ]
 }

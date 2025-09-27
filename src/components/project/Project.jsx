@@ -20,11 +20,11 @@ const Project = ({img, link, title, desc1, desc2, desc3}) => {
             </a>
           </div>
           <div className="p-wrapper">
-            <h3 className="p-title" style={{color: darkMode && "#FFC300"}}>{title}</h3>
+            <h3 className="p-title" style={{color: darkMode ? "#FFC300" : "#001D3D"}}>{title}</h3>
             <div className="ul">
-              <li className="p-li"><b className="p-li-title" style={{color: darkMode && "#FFC300"}}>Frontend:</b> {desc1}</li>
-              <li className="p-li"><b className="p-li-title" style={{color: darkMode && "#FFC300"}}>Backend:</b> {desc2}</li>
-              <li className="p-li"><b className="p-li-title" style={{color: darkMode && "#FFC300"}}>Other:</b> {desc3}</li>
+              <li className="p-li"><b className="p-li-title" style={{color: darkMode ? "#FFC300" : "#001D3D"}}>Frontend:</b> {desc1}</li>
+              <li className="p-li"><b className="p-li-title" style={{color: darkMode ? "#FFC300" : "#001D3D"}}>Backend:</b> {desc2}</li>
+              <li className="p-li"><b className="p-li-title" style={{color: darkMode ? "#FFC300" : "#001D3D"}}>Other:</b> {desc3}</li>
             </div>
           </div>
       </div>

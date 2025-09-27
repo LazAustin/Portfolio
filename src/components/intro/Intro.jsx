@@ -31,7 +31,7 @@ const Intro = () => {
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item" style={{
-                    color: darkMode ? "#FFC300" : "#001D3D",
+                    color: darkMode && "#FFC300",
                   }}>Web Developer</div>
               <div className="i-title-item" style={{
                     color: darkMode && "#FFC300",

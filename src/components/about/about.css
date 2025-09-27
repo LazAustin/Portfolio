@@ -88,8 +88,10 @@
   }
 
   .a-right {
-    max-width: 90%;
     max-height: none;
+    margin-top: 50px;
+    width: 90%;
+    margin: 50px auto 0;
   }
 
   .a-card {
@@ -108,11 +110,6 @@
 
   .a-bg {
     display: none;
-  }
-
-  .a-right{
-    width: 90%;
-    margin: 0 auto;
   }
 }
 

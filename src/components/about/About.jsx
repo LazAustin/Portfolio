@@ -8,7 +8,7 @@ const About = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="a">
+    <div className="a" id="about">
       <div className="a-wrapper">
         <div className="a-left">
           <div className="a-card a-bg" style={{backgroundColor: darkMode && "#FFC300"}} ></div>

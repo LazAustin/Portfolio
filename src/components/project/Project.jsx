@@ -1,6 +1,12 @@
 import "./project.css";
+import { ThemeContext } from "../../context";
+import { useContext } from "react";
 
 const Project = ({img, link, title, desc1, desc2, desc3}) => {
+
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
       <div className="p">
           <div className="p-browser">
@@ -14,11 +20,11 @@ const Project = ({img, link, title, desc1, desc2, desc3}) => {
             </a>
           </div>
           <div className="p-wrapper">
-            <h4 className="title">{title}</h4>
+            <h3 className="p-title" style={{color: darkMode && "#FFC300"}}>{title}</h3>
             <div className="ul">
-              <li><b>Frontend:</b> {desc1}</li>
-              <li><b>Backend:</b> {desc2}</li>
-              <li><b>Other:</b> {desc3}</li>
+              <li className="p-li"><b className="p-li-title" style={{color: darkMode && "#FFC300"}}>Frontend:</b> {desc1}</li>
+              <li className="p-li"><b className="p-li-title" style={{color: darkMode && "#FFC300"}}>Backend:</b> {desc2}</li>
+              <li className="p-li"><b className="p-li-title" style={{color: darkMode && "#FFC300"}}>Other:</b> {desc3}</li>
             </div>
           </div>
       </div>

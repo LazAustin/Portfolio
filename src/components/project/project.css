@@ -1,6 +1,6 @@
 .p-wrapper {
   object-fit: cover;
-  padding: 5px;
+  padding: 0 5px 25px;
 }
 
 .img-wrapper {
@@ -10,6 +10,7 @@
 }
 
 .title {
+
 }
 
 .ul {
@@ -71,16 +72,17 @@
   .p {
     width: 100%;
   }
+
+  .p-li {
+    font-size: 18px;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
   .p {
     width: 70%;
     justify-content: center;
-  }
-
-  .title {
-    font-size: 5vw;
   }
 
   .ul {
@@ -100,22 +102,22 @@
     font-size: 1vw;
   }
   
-  .title {
+  /* .title {
     font-size: 1.5vw;
-  }
+  } */
 }
 
 @media screen and (min-width: 721px) and (max-width: 1080px) {
 
-.p {
-  width: 40%;
-}
+  .p {
+    width: 40%;
+  }
 
-.ul {
-  font-size: 1vw;
-}
+  .ul {
+    font-size: 1vw;
+  }
 
-.title {
-  font-size: 1.5vw;
-}
+  /* .title {
+    font-size: 1.5vw;
+  } */
 }

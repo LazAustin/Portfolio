@@ -12,18 +12,26 @@ const Intro = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="i">
+    <div className="i" id="intro">
+      
       <div className="i-left">
         <div className="i-left-wrapper">
-          <div className="i-maint-wrapper">
-            <span className="i-maint-content">Please pardon the mess while I conduct some maintenance.</span>
+          <div className="i-navbar">
+            <a href="#about" style={{color: darkMode && "#FFC300"}}>About</a>
+            <a href="#project" style={{color: darkMode && "#FFC300"}}>Portfolio</a>
+            <a href="#contact" style={{color: darkMode && "#FFC300"}}>Contact</a>
           </div>
+          {/* <div className="i-maint-wrapper">
+            <span className="i-maint-content">
+              Please pardon the mess while I conduct some maintenance.
+            </span>
+          </div> */}
           <div className="i-intro">My name is</div>
           <h1 className="i-name">Laz Austin</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item" style={{
-                    color: darkMode && "#FFC300",
+                    color: darkMode ? "#FFC300" : "#001D3D",
                   }}>Web Developer</div>
               <div className="i-title-item" style={{
                     color: darkMode && "#FFC300",
@@ -41,11 +49,9 @@ const Intro = () => {
           </div>
           <p className="i-desc">
           By day, I am a full stack software developer.
-          </p>
-          <p className="i-desc">
+          <br/>
           At night, I don my mask and cape to become a sci-fi and comic nerd, amateur linguist, bartender, blogger and commentator, chef, pianist, reader, and husband. 
-          </p>
-          <p className="i-desc">
+          <br />
           Check out my Github, Stack Overflow, or LinkedIn links or feel free to contact me at the bottom of the page. 
           </p>
           <div className="introLinkWrapper" style={{color: darkMode && "#FFD60A"}}>

@@ -1,16 +1,43 @@
-.p-wrapper {
-  object-fit: cover;
-  padding: 0 5px 25px;
+.pf {
+  width: 30%;
+  margin: 20px 10px;
+  /* border: 2px solid rgb(243, 242, 242);
+  border-radius: 10px 10px 10px 10px; */
+  overflow: hidden;
 }
 
-.img-wrapper {
-  height: 30vh;
+.pf:last-child {
+  /* display: none; */
+}
+
+.pf-browser {
+  height: 20px;
+  background-color: rgb(243, 242, 242);
+  /* background-color: #6689A6; */
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 2;
+}
+
+.pf-circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin: 3px;
+  background-color: white;
+}
+
+.pf-img-wrapper {
+  height: 225px;
   overflow: hidden;
   border-bottom: 2px solid rgb(243, 242, 242);
 }
 
-.title {
-
+.pf-wrapper {
+  object-fit: cover;
+  padding: 15px 25px;
+  height: 100%;
 }
 
 .ul {
@@ -19,68 +46,39 @@
   margin-top: 5px;
 }
 
-.p {
-  width: 30%;
-  margin: 20px 10px;
-  border: 2px solid rgb(243, 242, 242);
-  border-radius: 10px 10px 10px 10px;
-  overflow: hidden;
-}
-
-.p:last-child {
-  display: none;
-}
-
-.p-browser {
-  height: 20px;
-  background-color: rgb(243, 242, 242);
-  display: flex;
-  align-items: center;
-  position: sticky;
-  z-index: 2;
-}
-
-.p-circle {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  margin: 3px;
-  background-color: white;
-}
-
-.p-img {
+.pf-img {
   width: 100%;
   transition: all 10s ease;
 }
 
-.p:hover .p-img {
+.pf:hover .pf-img {
   transform: translateY(-100%);
 }
 
 @media screen and (max-width: 1080px) {
-  .p:last-child {
-    display: block;
-    visibility: hidden;
+  .pf:last-child {
+    /* display: block;
+    visibility: hidden; */
   }
 }
 
 @media screen and (max-width: 720px) {
-  .p:last-child {
-    display: none;
+  .pf:last-child {
+    /* display: none; */
   }
 
-  .p {
+  .pf {
     width: 100%;
   }
 
-  .p-li {
+  .pf-li {
     font-size: 18px;
   }
 
 }
 
 @media screen and (max-width: 480px) {
-  .p {
+  .pf {
     width: 70%;
     justify-content: center;
   }
@@ -95,29 +93,21 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 720px) {
-  .p {
+  .pf {
     width: 70%;
   }
   .ul {
     font-size: 1vw;
   }
-  
-  /* .title {
-    font-size: 1.5vw;
-  } */
 }
 
 @media screen and (min-width: 721px) and (max-width: 1080px) {
 
-  .p {
+  .pf {
     width: 40%;
   }
 
   .ul {
     font-size: 1vw;
   }
-
-  /* .title {
-    font-size: 1.5vw;
-  } */
 }

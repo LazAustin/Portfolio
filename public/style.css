@@ -8,30 +8,58 @@ body {
   margin: 0;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 h1 {
   font-size: 60px;
-  margin: 10px 0;
+  margin: 0 0 25px 0;
+  line-height: 1.2;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 600;
   margin: 10px 0;
 }
 
-@media screen and (max-width: 1920px) {
-  //just set up for future edits if needed
+h3 {
+  font-size: 35px;
+  font-weight: 600;
+  margin: 10px 0;
+  line-height: 1.2;
 }
 
-@media screen and (max-width: 1440px) {
-  //just set up for future edits if needed
+h4 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 25px 0 0 0;
 }
 
 @media screen and (max-width: 1280px) {
   html {
     font-size: 20px;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  h4 {
+    margin: 20px 0;
   }
 }
 
@@ -39,11 +67,32 @@ h2 {
   html {
     font-size: 18px;
   }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 720px) {
   html {
     font-size: 16px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h4 {
+    margin-top: 5px;
+    margin-bottom: 0;
   }
 }
 

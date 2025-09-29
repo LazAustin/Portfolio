@@ -1,8 +1,8 @@
-import "./project.css";
+import "./projectPersonal.css";
 import { ThemeContext } from "../../context";
 import { useContext } from "react";
 
-const Project = ({img, link, title, desc1, desc2, desc3}) => {
+const ProjectPersonal = ({img, link, title, subtitle, desc1, desc2, desc3}) => {
 
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -14,13 +14,14 @@ const Project = ({img, link, title, desc1, desc2, desc3}) => {
             <div className="p-circle"></div>
             <div className="p-circle"></div>
           </div>
-          <div className="img-wrapper">
+          <div className="p-img-wrapper">
             <a href={link} target="_blank" rel="noreferrer">
               <img src={img} alt="" className="p-img" />
             </a>
           </div>
           <div className="p-wrapper">
-            <h3 className="p-title" style={{color: darkMode ? "#FFC300" : "#001D3D"}}>{title}</h3>
+            <h4 className="p-title" style={{color: darkMode ? "#FFC300" : "#001D3D"}}>{title}</h4>
+            <p className="p-subtitle">{subtitle}</p>
             <div className="ul">
               <li className="p-li"><b className="p-li-title" style={{color: darkMode ? "#FFC300" : "#001D3D"}}>Frontend:</b> {desc1}</li>
               <li className="p-li"><b className="p-li-title" style={{color: darkMode ? "#FFC300" : "#001D3D"}}>Backend:</b> {desc2}</li>
@@ -32,4 +33,4 @@ const Project = ({img, link, title, desc1, desc2, desc3}) => {
   );
 };
 
-export default Project;
+export default ProjectPersonal;

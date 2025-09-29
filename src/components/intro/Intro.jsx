@@ -1,8 +1,8 @@
 import "./intro.css";
 import { ThemeContext } from "../../context";
 import { useContext } from "react";
-import Me from "../../img/me.JPG";
-import MeNoBG from "../../img/lazProfNoBGPNGCompressed.png"
+// import Me from "../../img/me.JPG";
+// import MeNoBG from "../../img/lazProfNoBGPNGCompressed.png"
 import MeNoBG2 from "../../img/lazProf2NoBGPNGCompressed.png"
 import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 
@@ -13,7 +13,6 @@ const Intro = () => {
 
   return (
     <div className="i" id="intro">
-      
       <div className="i-left">
         <div className="i-left-wrapper">
           <div className="i-navbar">
@@ -33,12 +32,12 @@ const Intro = () => {
               <div className="i-title-item" style={{
                     color: darkMode && "#FFC300",
                   }}>Web Developer</div>
+                  <div className="i-title-item" style={{
+                    color: darkMode && "#FFC300",
+                  }}>App Developer</div>
               <div className="i-title-item" style={{
                     color: darkMode && "#FFC300",
                   }}>Wordpress</div>
-              <div className="i-title-item" style={{
-                    color: darkMode && "#FFC300",
-                  }}>App Developer</div>
               <div className="i-title-item" style={{
                     color: darkMode && "#FFC300",
                   }}>MERN Stack</div>
@@ -48,13 +47,29 @@ const Intro = () => {
             </div>
           </div>
           <p className="i-desc">
-          By day, I am a full stack software developer.
+          {/* By day, I am a full stack software developer.
           <br/>
           At night, I don my mask and cape to become a sci-fi and comic nerd, amateur linguist, bartender, blogger and commentator, chef, pianist, reader, and husband. 
           <br />
-          Check out my Github, Stack Overflow, or LinkedIn links or feel free to contact me at the bottom of the page. 
+          Check out my Github, Stack Overflow, or LinkedIn links or feel free to contact me at the bottom of the page.  */}
+          As a full-stack developer with a passion for code, I build custom, dynamic, and responsive websites that drive results.
+            Through my work at a local marketing agency and various independent projects, I have the experience and skill to bring your ideas to life.
+            Hit me up—explore my portfolio or reach out via the contact form below or my LinkedIn. 
+
+            {/* my work blends technical expertise with creative problem-solving to deliver seamless user experiences.
+            Let's connect—explore my portfolio or reach out via the contact form below or my LinkedIn. */}
           </p>
+          <div className="i-btn-wrapper">
+            <a href="#project" className="i-btn-link i-btn-link-1" style={{color: darkMode && "#FFD60A", borderColor: darkMode && "#FFD60A"}}>MY PORTFOLIO</a>
+            <a href="#contact" className="i-btn-link i-btn-link-2" style={{color: darkMode && "#001D3D", backgroundColor: darkMode && "#FFD60A"}}>CONTACT ME</a>
+          </div>
           <div className="introLinkWrapper" style={{color: darkMode && "#FFD60A"}}>
+            <div className="tooltip" style={{color: darkMode && "#FFD60A"}}>
+              <a href="https://linkedin.com/in/lazaustin" >
+                <FaLinkedin className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
+                <span className="tooltiptext" style={{color: darkMode ? "#FFD60A" : "#001D3D"}}><b>LinkedIn</b></span>
+              </a>
+            </div>
             <div className="tooltip">
               <a href="https://github.com/LazAustin">
                 <FaGithub className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
@@ -67,12 +82,7 @@ const Intro = () => {
                 <span className="tooltiptext" style={{color: darkMode ? "#FFD60A": "#001D3D"}}><b>Stack<br/>Overflow</b></span>
               </a>  
             </div>  
-            <div className="tooltip" style={{color: darkMode && "#FFD60A"}}>
-              <a href="https://linkedin.com/in/lazaustin" >
-                <FaLinkedin className="introLinks" style={{color: darkMode && "#FFD60A"}}/>
-                <span className="tooltiptext" style={{color: darkMode ? "#FFD60A" : "#001D3D"}}><b>LinkedIn</b></span>
-              </a>
-            </div>  
+              
           </div>
         </div>
         {/* <svg
@@ -137,6 +147,12 @@ const Intro = () => {
         <img src={MeNoBG2} alt="" className="i-img" />
         <img src={MeNoBG2} alt="" className="i-img-Mobile" />
         <div className="introLinkWrapper-Mobile" style={{color: darkMode && "#001D3D"}}>
+          <div className="tooltip" style={{color: darkMode && "#001D3D"}}>
+              <a href="https://linkedin.com/in/lazaustin" >
+                <FaLinkedin className="introLinks-Mobile" style={{color: darkMode && "#001D3D"}}/>
+                <span className="tooltiptext-Mobile" style={{color: darkMode ? "#001D3D" : "white"}}><b>LinkedIn</b></span>
+              </a>
+            </div>
             <div className="tooltip" style={{color: darkMode && "#001D3D"}}>
               <a href="https://github.com/LazAustin">
                 <FaGithub className="introLinks-Mobile" style={{color: darkMode && "#001D3D"}}/>
@@ -149,12 +165,7 @@ const Intro = () => {
                 <span className="tooltiptext-Mobile" style={{color: darkMode ? "#001D3D": "white"}}><b>Stack<br/>Overflow</b></span>
               </a>  
             </div>  
-            <div className="tooltip" style={{color: darkMode && "#001D3D"}}>
-              <a href="https://linkedin.com/in/lazaustin" >
-                <FaLinkedin className="introLinks-Mobile" style={{color: darkMode && "#001D3D"}}/>
-                <span className="tooltiptext-Mobile" style={{color: darkMode ? "#001D3D" : "white"}}><b>LinkedIn</b></span>
-              </a>
-            </div>  
+              
             <div className="tooltip tooltip-filler" style={{color: darkMode && "#001D3D"}} id="tooltip-filler">
               <a href="https://linkedin.com/in/lazaustin" >
                 <FaLinkedin className="introLinks-Mobile" style={{color: darkMode && "#001D3D"}}/>

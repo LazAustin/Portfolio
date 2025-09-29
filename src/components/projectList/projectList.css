@@ -14,7 +14,8 @@
 }
 
 .pl-texts {
-  width: 65%;
+  width: 80%;
+  margin-bottom: 25px;
 }
 
 .pl-title {
@@ -23,7 +24,17 @@
 }
 
 .pl-desc {
-  margin: 20px 0px;
+  margin: 20px 0px 50px 0;
+}
+
+.pl-subtitle {
+  width: 100%;
+  text-align: start;
+}
+
+.pl-subtitle-text {
+  width: 100%;
+  text-align: left;
 }
 
 .pl-list {
@@ -31,6 +42,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 75px;
 }
 
 @media screen and (max-width: 960px) {
@@ -41,6 +53,10 @@
 
   .pl-list {
     justify-content: center;
+  }
+
+  .pl-subtitle-text {
+    
   }
 }
 

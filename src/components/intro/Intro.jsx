@@ -60,8 +60,8 @@ const Intro = () => {
             Let's connect—explore my portfolio or reach out via the contact form below or my LinkedIn. */}
           </p>
           <div className="i-btn-wrapper">
-            <a href="#project" className="i-btn-link i-btn-link-1" style={{color: darkMode && "#FFD60A", borderColor: darkMode && "#FFD60A"}}>MY PORTFOLIO</a>
-            <a href="#contact" className="i-btn-link i-btn-link-2" style={{color: darkMode && "#001D3D", backgroundColor: darkMode && "#FFD60A"}}>CONTACT ME</a>
+            <a href="#project" className="i-btn-link i-btn-link-1" style={{color: darkMode && "#FFD60A", borderColor: darkMode && "#FFD60A"}}>MY&nbsp;PORTFOLIO</a>
+            <a href="#contact" className="i-btn-link i-btn-link-2" style={{color: darkMode && "#001D3D", backgroundColor: darkMode && "#FFD60A"}}>CONTACT&nbsp;ME</a>
           </div>
           <div className="introLinkWrapper" style={{color: darkMode && "#FFD60A"}}>
             <div className="tooltip" style={{color: darkMode && "#FFD60A"}}>

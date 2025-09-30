@@ -34,8 +34,8 @@ const About = () => {
               whether it be a CMS like WordPress or a fully-custom full-stack application.
           </p>
           <div className="a-btn-wrapper">
-            <a href="#project" className="a-btn-link a-btn-link-1" style={{color: darkMode && "#FFD60A", borderColor: darkMode && "#FFD60A"}}>MY PORTFOLIO</a>
-            <a href="#contact" className="a-btn-link a-btn-link-2" style={{color: darkMode && "#001D3D", backgroundColor: darkMode && "#FFD60A"}}>CONTACT ME</a>
+            <a href="#project" className="a-btn-link a-btn-link-1" style={{color: darkMode && "#FFD60A", borderColor: darkMode && "#FFD60A"}}>MY&nbsp;PORTFOLIO</a>
+            <a href="#contact" className="a-btn-link a-btn-link-2" style={{color: darkMode && "#001D3D", backgroundColor: darkMode && "#FFD60A"}}>CONTACT&nbsp;ME</a>
           </div>
         </div>
       </div>

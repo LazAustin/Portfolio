@@ -1,8 +1,6 @@
 import "./intro.css";
 import { ThemeContext } from "../../context";
 import { useContext } from "react";
-// import Me from "../../img/me.JPG";
-// import MeNoBG from "../../img/lazProfNoBGPNGCompressed.png"
 import MeNoBG2 from "../../img/lazProf2NoBGPNGCompressed.png"
 import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 

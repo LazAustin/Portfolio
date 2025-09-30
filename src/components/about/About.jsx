@@ -11,7 +11,7 @@ const About = () => {
     <div className="a" id="about">
       <div className="a-wrapper">
         <div className="a-left">
-          <div className="a-card a-bg" style={{backgroundColor: darkMode && "#FFC300"}} ></div>
+          <div className="a-card a-bg" style={{backgroundColor: darkMode && "#FFC300"}}></div>
           <div className="a-card a-img"></div>
         </div>
         <div className="a-right">

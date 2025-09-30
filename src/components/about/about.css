@@ -123,10 +123,6 @@
     text-align: center;
   }
 
-  .a-card {
-    /* height: 30vh; */
-  }
-
   .a-img {
     background: url("../../img/LazAndCathyRoseGardenOriginalCompressed.jpg") center / cover no-repeat;
     position: relative;

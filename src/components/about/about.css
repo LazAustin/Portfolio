@@ -55,10 +55,6 @@
     /* text-indent: 5%; */
 }
 
-.a-desc br {
-  height: 5px;
-}
-
 .a-btn-wrapper {
   display: flex;
   margin-bottom: 50px;
@@ -151,9 +147,3 @@
     margin-top: 100px;
   }
 }
-
-@media screen and (max-width:480px) {
-    
-
-
-  }

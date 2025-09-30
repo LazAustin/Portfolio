@@ -1,21 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.0bf6f735.css",
-    "main.js": "/static/js/main.4dc46da2.js",
-    "static/media/screencapafc.png": "/static/media/screencapafc.d0ae8fd5fd6b0c234536.png",
-    "static/media/me.JPG": "/static/media/me.2ef9db586815f0d269cf.JPG",
-    "static/media/secondMe.jpg": "/static/media/secondMe.9f42f0947d134159e895.jpg",
-    "static/media/screencapblog.png": "/static/media/screencapblog.2037a8b812c5d6d88d85.png",
-    "static/media/LazAndCathyBeach.jpg": "/static/media/LazAndCathyBeach.31e76180e8bec5f8c797.jpg",
-    "static/media/screencaplm.png": "/static/media/screencaplm.fe9859c26b07b3e2fb1d.png",
-    "static/media/sun.png": "/static/media/sun.f794832ad72b90c61eb7.png",
-    "static/media/moon.png": "/static/media/moon.3bea3d398a25611d421b.png",
-    "index.html": "/index.html",
-    "main.0bf6f735.css.map": "/static/css/main.0bf6f735.css.map",
-    "main.4dc46da2.js.map": "/static/js/main.4dc46da2.js.map"
+    "main.css": "http://www.lazaustin.com/static/css/main.17ad9cbe.css",
+    "main.js": "http://www.lazaustin.com/static/js/main.bf847312.js",
+    "static/media/lazProf2NoBGPNGCompressed.png": "http://www.lazaustin.com/static/media/lazProf2NoBGPNGCompressed.8a6e1295a5858bfb5131.png",
+    "static/media/screencapmsfcumain.jpg": "http://www.lazaustin.com/static/media/screencapmsfcumain.fedf8afde214a10d00c0.jpg",
+    "static/media/screencapgrillmain.jpg": "http://www.lazaustin.com/static/media/screencapgrillmain.192ed34c7f68761b145e.jpg",
+    "static/media/screencapafc.jpg": "http://www.lazaustin.com/static/media/screencapafc.97994947c1930d8f59c7.jpg",
+    "static/media/screencapcolony.jpg": "http://www.lazaustin.com/static/media/screencapcolony.e12fae7e793db5d054c4.jpg",
+    "static/media/screencapweetpeppersmain.jpg": "http://www.lazaustin.com/static/media/screencapweetpeppersmain.f97566f7730ac873289d.jpg",
+    "static/media/screencapharveysmain.jpg": "http://www.lazaustin.com/static/media/screencapharveysmain.f9cfb288692484e0bdeb.jpg",
+    "static/media/screencapsabmain.jpg": "http://www.lazaustin.com/static/media/screencapsabmain.1e9650c39a3f583515c9.jpg",
+    "static/media/screencaplcnbmain.jpg": "http://www.lazaustin.com/static/media/screencaplcnbmain.9c7b6fd4279af6369e1f.jpg",
+    "static/media/screencapbotetourtmain.jpg": "http://www.lazaustin.com/static/media/screencapbotetourtmain.1615da9d42abde761b41.jpg",
+    "static/media/screencaptbommain.jpg": "http://www.lazaustin.com/static/media/screencaptbommain.2917df5b1ecbd03eb83b.jpg",
+    "static/media/screencaprenasantmain.jpg": "http://www.lazaustin.com/static/media/screencaprenasantmain.fd095623bd8de4236f73.jpg",
+    "static/media/screencapheritagemain.jpg": "http://www.lazaustin.com/static/media/screencapheritagemain.ebf744404c316b152bea.jpg",
+    "static/media/LazAndCathyBeach.jpg": "http://www.lazaustin.com/static/media/LazAndCathyBeach.31e76180e8bec5f8c797.jpg",
+    "static/media/screencapblog.jpg": "http://www.lazaustin.com/static/media/screencapblog.1e160199eb9246c70cff.jpg",
+    "static/media/LazAndCathyRoseGardenOriginalCompressed.jpg": "http://www.lazaustin.com/static/media/LazAndCathyRoseGardenOriginalCompressed.61c2348eaf97cb4e4aa9.jpg",
+    "static/media/screencapbbcmain.jpg": "http://www.lazaustin.com/static/media/screencapbbcmain.f2ff2e5ccaa40ed0db35.jpg",
+    "static/media/screencaplm.jpg": "http://www.lazaustin.com/static/media/screencaplm.7924561c18b49e509a03.jpg",
+    "static/media/sun.png": "http://www.lazaustin.com/static/media/sun.f794832ad72b90c61eb7.png",
+    "static/media/moon.png": "http://www.lazaustin.com/static/media/moon.3bea3d398a25611d421b.png",
+    "index.html": "http://www.lazaustin.com/index.html",
+    "main.17ad9cbe.css.map": "http://www.lazaustin.com/static/css/main.17ad9cbe.css.map",
+    "main.bf847312.js.map": "http://www.lazaustin.com/static/js/main.bf847312.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bf6f735.css",
-    "static/js/main.4dc46da2.js"
+    "static/css/main.17ad9cbe.css",
+    "static/js/main.bf847312.js"
   ]
 }

@@ -1,7 +1,14 @@
 .a {
-  height: 100vh;
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.a-wrapper {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .a-left {
@@ -10,76 +17,67 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 100%;
+  height: 700px;
+  max-height: 70vh;
+  max-width: 800px;
 }
 
 .a-right {
   flex: 1;
-}
-
-.a-card.bg {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  background-color: #003566;
+  max-width: 800px;
+  max-height: 600px;
 }
 
 .a-card {
   width: 60%;
-  height: 70vh;
+  height: 100%;
   border-radius: 30px;
-  position: relative;
   overflow: hidden;
 }
 
-.a-card:last-child {
-  background-image: url("LazAndCathyBeach.jpg");
-  background-position: center;
-  background-size: cover;
+.a-bg {
+  background-color: #003566;
+  position: absolute;
+  left: 0;
+  bottom: -50px;
 }
 
 .a-img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  border-radius: 30px;
-}
-
-.a-award-img {
-  width: 120px;
-  height: 120px;
-}
-
-.a-title {
-  font-weight: 400;
-}
-
-.a-sub {
-  margin: 20px 0;
+  background: url("../../img/LazAndCathyBeach.jpg") center / cover no-repeat;
+  position: absolute;
+  left: 50px;
+  bottom: 0;
 }
 
 .a-desc{
-    padding-right: 10px;
-    font-size: 150%;
     font-weight: 300;
-    text-indent: 5%;
+    margin-bottom: 50px;
+    /* text-indent: 5%; */
 }
 
-.a-award{
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.a-btn-wrapper {
+  display: flex;
+  margin-bottom: 50px;
 }
 
-.a-award-texts{
-    width: 70%;
+.a-btn-link {
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.08rem;
+  margin-right: 100px;
+  text-decoration: none;
 }
 
-.a-award-title{
-    font-weight: bold;
-    color: #555;
-    margin-bottom: 10px;
+.a-btn-link-1 {
+  border: 1px solid #001D3D;
+  /* background-color: #001D3D; */
+  color: #001D3D;
+}
+
+.a-btn-link-2 {
+  background-color: #001D3D;
+  color: white;
 }
 
 .fig {
@@ -92,31 +90,53 @@
   font-weight: 600;
 }
 
-@media screen and (max-width:480px) {
-    .a {
-      flex-direction: column;
-      text-align: center;
-      margin-top: 50px;
-    }
-
-    .a-left {
-      width: 100%;
-    }
-
-    .a-card {
-      height: 30vh;
-    }
-    .a-card:last-child {
-      background-image: url("secondMe.jpg");
-      background-position: top;
-      background-size: cover;
-    }
-
-    .a-card.bg, .a-award {
-      display: none;
-    }
-
-    .a-right{
-      padding: 20px;
-    }
+@media screen and ( max-width: 960px ) {
+  .a {
+    margin-top: 50px;
   }
+
+  .a-wrapper {
+    display: block;
+    width: 90%;
+  }
+
+  .a-left {
+    max-width: none;
+    max-width: 90%;
+    max-height: 400px;
+    margin: 0 auto;
+    /* width: 100%; */
+    /* height: 300px; */
+  }
+
+  .a-right {
+    max-height: none;
+    margin-top: 50px;
+    width: 80%;
+    margin: 50px auto 0;
+  }
+
+  .a-title {
+    text-align: center;
+  }
+
+  .a-img {
+    background: url("../../img/LazAndCathyRoseGardenOriginalCompressed.jpg") center / cover no-repeat;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 90%;
+    max-height: 400px;
+  }
+
+  .a-bg {
+    display: none;
+  }
+}
+
+@media screen and ( max-width: 720px ) {
+  .a {
+    margin-top: 100px;
+  }
+}

@@ -426,17 +426,3 @@
     width: 100%;
   }
 }
-
-/* @media (orientation: landscape) {
-  .i {
-    margin-bottom: 200px;
-  }  
-  .i-left-wrapper {
-    padding: 0;
-  }
-
-  .i-left {
-    
-    justify-content: normal;
-  }
-} */

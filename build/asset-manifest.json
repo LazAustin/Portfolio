@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://www.lazaustin.com/static/css/main.a5e1f323.css",
-    "main.js": "https://www.lazaustin.com/static/js/main.cf83a09c.js",
+    "main.js": "https://www.lazaustin.com/static/js/main.baefe173.js",
     "static/media/lazProf2NoBGPNGCompressed.png": "https://www.lazaustin.com/static/media/lazProf2NoBGPNGCompressed.8a6e1295a5858bfb5131.png",
     "static/media/screencapmsfcumain.jpg": "https://www.lazaustin.com/static/media/screencapmsfcumain.fedf8afde214a10d00c0.jpg",
     "static/media/screencapgrillmain.jpg": "https://www.lazaustin.com/static/media/screencapgrillmain.192ed34c7f68761b145e.jpg",
@@ -24,10 +24,10 @@
     "static/media/moon.png": "https://www.lazaustin.com/static/media/moon.3bea3d398a25611d421b.png",
     "index.html": "https://www.lazaustin.com/index.html",
     "main.a5e1f323.css.map": "https://www.lazaustin.com/static/css/main.a5e1f323.css.map",
-    "main.cf83a09c.js.map": "https://www.lazaustin.com/static/js/main.cf83a09c.js.map"
+    "main.baefe173.js.map": "https://www.lazaustin.com/static/js/main.baefe173.js.map"
   },
   "entrypoints": [
     "static/css/main.a5e1f323.css",
-    "static/js/main.cf83a09c.js"
+    "static/js/main.baefe173.js"
   ]
 }

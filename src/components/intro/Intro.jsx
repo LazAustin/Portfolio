@@ -24,7 +24,7 @@ const Intro = () => {
             </span>
           </div> */}
           <div className="i-intro">My name is</div>
-          <h1 className="i-name">Laz Austin Test</h1>
+          <h1 className="i-name">Laz Austin Test 2</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item" style={{

@@ -1,11 +1,16 @@
 html {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    font-size: 22px;
+    font-size: 17px;
 }
 
 body {
   margin: 0;
+}
+
+p {
+  margin-top: 0;
+  line-height: 1.5rem;
 }
 
 ul {
@@ -21,63 +26,108 @@ ul li {
 }
 
 h1 {
-  font-size: 60px;
-  margin: 0 0 25px 0;
-  line-height: 1.2;
+  font-size: 50px;
+  margin: 0 0 15px 0;
+  line-height: 1;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   margin: 10px 0;
 }
 
 h3 {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 600;
   margin: 10px 0;
   line-height: 1.2;
 }
 
 h4 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   margin: 25px 0 0 0;
 }
 
+.btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.btn-link {
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.08rem;
+  margin-right: 25px;
+  max-width: 200px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-link-1 {
+  border: 1px solid #001D3D;
+  /* background-color: #001D3D; */
+  color: #001D3D;
+  flex: 1;
+}
+
+.btn-link-2 {
+  background-color: #001D3D;
+  color: white;
+  flex: 1;
+}
+
 @media screen and (max-width: 1280px) {
   html {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   h1 {
-    font-size: 55px;
-  }
-
-  h2 {
     font-size: 45px;
   }
 
+  h2 {
+    font-size: 30px;
+  }
+
   h4 {
+    font-size: 20px;
     margin: 20px 0;
   }
 }
 
 @media screen and (max-width: 960px) {
   html {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 40px;
+    margin-bottom: 5px;
   }
 
   h3 {
-    font-size: 30px;
+    /* font-size: 30px; */
   }
 
   h4 {
     font-size: 25px;
+  }
+
+  .btn-wrapper {
+    width: 100%;
+    justify-content: space-between;
+    gap: 5vw;
+  }
+
+  .btn-link {
+    font-size: 1.1rem;
+    letter-spacing: 0.09rem;
+    margin-right: 0;
+    padding: 0.8rem 2rem;
   }
 }
 
@@ -87,17 +137,57 @@ h4 {
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   h4 {
     margin-top: 5px;
     margin-bottom: 0;
   }
+
+  .btn-wrapper {
+    justify-content: space-between;
+  }
+
+  .btn-link {
+    font-size: 1rem;
+    letter-spacing: 0.08rem;
+    margin-right: 0;
+    padding: 0.7rem 1.4rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
   html {
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .btn-wrapper {
+  }
+
+  .btn-link {
+    font-size: 0.7rem;
+    letter-spacing: 0.06rem;
+    padding: 0.6rem 0.8rem;
   }
 }
 

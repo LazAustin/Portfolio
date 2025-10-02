@@ -1,11 +1,9 @@
 .pl {
   width: 100%;
-  padding: 50px0;
-  margin-top: 100px;
 }
 
 .pl-wrapper {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -18,13 +16,8 @@
   margin-bottom: 25px;
 }
 
-.pl-title {
-  font-size: 50px;
-  font-weight: 600;
-}
-
 .pl-desc {
-  margin: 20px 0px 50px 0;
+  margin: 0 0px 50px 0;
 }
 
 .pl-subtitle {
@@ -45,6 +38,12 @@
   margin-bottom: 75px;
 }
 
+@media screen and (max-width: 1440px) {
+  .pl-list {
+    margin-bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 960px) {
   
   .pl {
@@ -53,6 +52,11 @@
 
   .pl-list {
     justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  .pl-desc {
+    margin-bottom: 25px;
   }
 
   .pl-subtitle-text {

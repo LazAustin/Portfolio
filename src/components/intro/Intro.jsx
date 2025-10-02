@@ -44,22 +44,22 @@ const Intro = () => {
                   }}>Android</div>
             </div>
           </div>
-          <p className="i-desc">
+          <div className="i-desc">
           {/* By day, I am a full stack software developer.
           <br/>
           At night, I don my mask and cape to become a sci-fi and comic nerd, amateur linguist, bartender, blogger and commentator, chef, pianist, reader, and husband. 
           <br />
           Check out my Github, Stack Overflow, or LinkedIn links or feel free to contact me at the bottom of the page.  */}
-          As a full-stack developer with a passion for code, I build custom, dynamic, and responsive websites that drive results.
-            Through my work at a local marketing agency and various independent projects, I have the experience and skill to bring your ideas to life.
-            Hit me up—explore my portfolio or reach out via the contact form below or my LinkedIn. 
+          <p>As a full-stack developer with a passion for code, I build custom, dynamic, and responsive websites that can bring your vision to life.</p>
+          <p>With years of experience both as part of a team and as an independent developer, I have what it takes to drive results.</p>
+          <p>Hit me up—explore my portfolio or reach out via the contact form below or my socials.</p>
 
             {/* my work blends technical expertise with creative problem-solving to deliver seamless user experiences.
             Let's connect—explore my portfolio or reach out via the contact form below or my LinkedIn. */}
-          </p>
-          <div className="i-btn-wrapper">
-            <a href="#project" className="i-btn-link i-btn-link-1" style={{color: darkMode && "#FFD60A", borderColor: darkMode && "#FFD60A"}}>MY&nbsp;PORTFOLIO</a>
-            <a href="#contact" className="i-btn-link i-btn-link-2" style={{color: darkMode && "#001D3D", backgroundColor: darkMode && "#FFD60A"}}>CONTACT&nbsp;ME</a>
+          </div>
+          <div className="btn-wrapper">
+            <a href="#project" className="btn-link btn-link-1" style={{color: darkMode && "#FFD60A", borderColor: darkMode && "#FFD60A"}}>MY&nbsp;PORTFOLIO</a>
+            <a href="#contact" className="btn-link btn-link-2" style={{color: darkMode && "#000814", backgroundColor: darkMode && "#FFD60A"}}>CONTACT&nbsp;ME</a>
           </div>
           <div className="introLinkWrapper" style={{color: darkMode && "#FFD60A"}}>
             <div className="tooltip" style={{color: darkMode && "#FFD60A"}}>

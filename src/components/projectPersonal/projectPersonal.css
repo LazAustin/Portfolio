@@ -28,7 +28,7 @@
 }
 
 .p-img-wrapper {
-  height: 300px;
+  height: 175px;
   overflow: hidden;
   border-bottom: 2px solid rgb(243, 242, 242);
 }
@@ -54,7 +54,7 @@
   padding: 15px 0;
 }
 
-.ul .p-li {
+.p-li {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -69,6 +69,10 @@
     display: block;
     visibility: hidden;
   }
+
+  .p-li {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -81,9 +85,8 @@
   }
 
   .p-li {
-    font-size: 18px;
+    font-size: 17px;
   }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -98,6 +101,10 @@
 
   .img-wrapper {
     max-height: 200px;
+  }
+
+  .p-li {
+    font-size: 16px;
   }
 }
 

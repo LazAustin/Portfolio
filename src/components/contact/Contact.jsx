@@ -35,8 +35,12 @@ const Contact = () => {
       <div className="c-bg" style={{backgroundColor: darkMode && "#FFD60A"}}></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Need a developer?</h1>
+          <h2 className="c-title">Need a<br/> developer?</h2>
           <div className="c-info">
+            <a href="www.linkedin.com/in/lazaustin" className="c-info-item" style={{color: darkMode && "#FFD60A"}}>
+                <FaLinkedin className="c-icon" />
+                LinkedIn
+            </a>
             <a href="https://github.com/LazAustin" className="c-info-item" style={{color: darkMode && "#FFD60A"}}>
                 <FaGithub className="c-icon"/>
                 GitHub
@@ -44,10 +48,6 @@ const Contact = () => {
             <a href="https://stackoverflow.com/users/12333367/laz-austin" className="c-info-item" style={{color: darkMode && "#FFD60A"}}>
                 <FaStackOverflow className="c-icon" />
                 Stack Overflow
-            </a>
-            <a href="www.linkedin.com/in/lazaustin" className="c-info-item" style={{color: darkMode && "#FFD60A"}}>
-                <FaLinkedin className="c-icon" />
-                LinkedIn
             </a>
           </div>
         </div>

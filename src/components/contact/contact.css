@@ -1,6 +1,6 @@
 .c {
-  height: 100vh;
   position: relative;
+  padding-bottom: 100px;
 }
 
 .c-bg {
@@ -11,8 +11,10 @@
 }
 
 .c-wrapper {
-  padding: 50px;
   display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
 }
 
 .c-left {
@@ -28,18 +30,16 @@
 }
 
 .c-title {
-  font-size: 60px;
-  width: 80%;
+  margin-bottom: 35px;
 }
 
 .c-info-item {
   display: flex;
   align-items: center;
-  margin: 50px 0px;
   font-weight: 500;
-  width: 70%;
   text-decoration: none;
   color: #000814;
+  margin-bottom: 35px;
 }
 
 .c-info-item:hover {
@@ -94,23 +94,46 @@ button {
   cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 960px) {
   .c-wrapper {
     flex-direction: column;
-    padding: 0px 50px;
+    width: 85%;
   }
 
-  .c-title {
-    font-size: 30px;
-  }
-
-  .c-info-item {
-    margin: 20px 0px;
+  .c-left, .c-right {
+    margin: 0 auto;
     width: 100%;
   }
 
+  .c-title {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .c-title br {
+     display: none;
+     content: '&nbsp';
+  }
+
+  .c-info {
+    display: flex;
+    margin-bottom: 35px;
+  }
+
+  .c-info-item {
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+
+  .c-icon {
+    margin-right: 10px;
+  }
+
   .c-desc {
-    display: none;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 10px;
   }
 
   form {
@@ -128,5 +151,16 @@ button {
 
   button {
     margin-top: 10px;
+  }
+}
+
+input {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  form {
+    flex-direction: column;
+    wrap: no-wrap;
   }
 }

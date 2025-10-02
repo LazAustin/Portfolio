@@ -36,7 +36,7 @@
 
 .pf-wrapper {
   object-fit: cover;
-  padding: 15px 25px;
+  padding: 0 25px;
   height: 100%;
 }
 

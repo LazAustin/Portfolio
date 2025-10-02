@@ -24,8 +24,8 @@ const About = () => {
           </figcaption> */}
           <div className="a-desc">
             {/* Ever since I first programmed an Arduino in college, I’ve been hooked on software development. Coding is not just fun—it’s a way to bring my diverse interests to life, from enhancing hobbies to tackling new challenges. The ever-evolving tech landscape keeps me learning and inspired, and I love that every project has the potential to make a real impact. Check out my GitHub, Stack Overflow, LinkedIn, or blog to learn more about me and my work! */}
-            <p>Hailing from Mississippi, my self-taught journey began by programming an Arduino as an Electrical Engineering major
-             at Mississippi State, igniting a passion for software that can solve real-world problems. </p>
+            <p>My self-taught journey began by programming an Arduino as an Electrical Engineering major
+             at Mississippi State University, igniting a passion for software that can solve real-world problems. </p>
             <p>As a self-professed nerd with various interests, I realized code is the common denominator; 
               that it powers everything from satellites in space, to the TV in your living room. </p>
             <p>Understanding that, I passionately believe everyone should have a website, whether you’re a Fortune 500 company, 

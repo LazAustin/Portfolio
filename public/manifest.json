@@ -6,6 +6,6 @@
         "src": "favicon.ico",
         "sizes": "64x64 32x32 24x24 16x16"      }
     ],
-    "start_url": "lazthedev.com",
+    "start_url": "https://lazaustin.com",
     "display": "standalone"
   }

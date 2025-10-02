@@ -378,15 +378,15 @@
     display: block;
   }
 
+  .i-navbar a {
+    font-size: 12px;
+    margin-right: 35px;
+  }
+
   .i-intro {
     font-size: 22px;
     line-height: 1.35rem;
     margin-bottom: 10px;
-  }
-
-  .i-navbar a {
-    font-size: 12px;
-    margin-right: 13px;
   }
 
   .i-title {

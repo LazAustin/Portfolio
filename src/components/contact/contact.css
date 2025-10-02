@@ -98,6 +98,7 @@ button {
   .c-wrapper {
     flex-direction: column;
     width: 85%;
+    padding-top: 25px;
   }
 
   .c-left, .c-right {
@@ -158,9 +159,26 @@ input {
   width: 100%;
 }
 
+@media screen and ( max-width: 720px) {
+  .c-wrapper {
+    width: 75%;
+  }
+
+  form {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 480px) {
   form {
     flex-direction: column;
     wrap: no-wrap;
+  }
+
+
+  .c-info-item {
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
   }
 }

@@ -48,11 +48,12 @@
   
   .pl {
     margin-top: 50px;
+    padding-bottom: 10px;
   }
 
   .pl-list {
     justify-content: center;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
   }
 
   .pl-desc {
@@ -66,7 +67,7 @@
 
 @media screen and (max-width: 480px) {
   .pl {
-    padding: 25px 0;
+    padding: 25px 0 10px 0;
   }
 
   .pl-texts {

@@ -63,7 +63,8 @@ const ProjectList = () => {
               img={item.img} 
               link={item.link} 
               title={item.title} 
-              subtitle={item.subtitle} 
+              subtitle={item.subtitle}
+              note={item.note} 
               desc1={item.desc1} 
               desc2={item.desc2} 
               desc3={item.desc3}/>

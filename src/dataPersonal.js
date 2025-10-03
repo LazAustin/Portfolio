@@ -17,9 +17,10 @@ export const projectsPers = [
   {
     id: 2,
     img: screencaplm,
-    link: "http://filmifyms.lazaustin.com",
+    link: "#",
     title: "Filmify",
     subtitle: "License Management System",
+    note: "(*link temporarily disabled)",
     desc: "CRUD app built to manage streaming video licenses for libraries and film distributors. Written on the MERN stack with MUI, JWT, and Redux Toolkit.",
     desc1: "React, MaterialUI, JS",
     desc2: "Node.js, Express, MongoDB",
@@ -28,9 +29,10 @@ export const projectsPers = [
   {
     id: 3,
     img: screencapblog,
-    link: "http://commenhater.lazaustin.com",
+    link: "#",
     title: "Commenhater",
     subtitle: "Blogging Website",
+    note: "(*link temporarily disabled)",
     desc: "Full-stack blog written for myself and my hobbies. Another MERN stack app, but with Context for state management, Tailwind CSS, and several node packages including emailjs, TipTap, and more.",
     desc1: "React, TailwindCSS, JS",
     desc2: "Node.js, Express, MongoDB",

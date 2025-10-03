@@ -50,6 +50,12 @@
   margin-top: 0;
 }
 
+.p-note {
+  font-size: 12px;
+  margin: -14px 0 0 0;
+  line-height: 1rem;
+}
+
 .ul {
   padding: 15px 0;
 }

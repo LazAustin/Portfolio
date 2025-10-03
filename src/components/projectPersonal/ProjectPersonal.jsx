@@ -2,7 +2,7 @@ import "./projectPersonal.css";
 import { ThemeContext } from "../../context";
 import { useContext } from "react";
 
-const ProjectPersonal = ({img, link, title, subtitle, desc1, desc2, desc3}) => {
+const ProjectPersonal = ({img, link, title, subtitle, note, desc1, desc2, desc3}) => {
 
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -22,6 +22,7 @@ const ProjectPersonal = ({img, link, title, subtitle, desc1, desc2, desc3}) => {
           <div className="p-wrapper">
             <h4 className="p-title" style={{color: darkMode ? "#FFC300" : "#001D3D"}}>{title}</h4>
             <p className="p-subtitle">{subtitle}</p>
+            <p className="p-note">{note}</p>
             <div className="ul">
               <li className="p-li"><b className="p-li-title" style={{color: darkMode ? "#FFC300" : "#001D3D"}}>Frontend:</b> {desc1}</li>
               <li className="p-li"><b className="p-li-title" style={{color: darkMode ? "#FFC300" : "#001D3D"}}>Backend:</b> {desc2}</li>
